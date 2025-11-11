@@ -36,7 +36,7 @@ public class Review_part_2
                 quit();
                 break;
             default:
-                System.out.println("sorry, I don’t understand your command");
+                System.out.println("sorry I don't understand");
                 break;
         }
     }
