@@ -7,27 +7,14 @@
  */
 public class Review_part_2
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Review_part_2
-     */
-    public Review_part_2()
+    private int price = 120;
+    public void checkPrice(){
+    if(price >100)
     {
-        // initialise instance variables
-        x = 0;
+        System.out.println("Expensive");
+    }else
+    {
+        System.out.println("Cheap");
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
     }
 }
