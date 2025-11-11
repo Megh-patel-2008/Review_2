@@ -28,12 +28,16 @@ public class Review_part_2
     }
     public static void main(String[] args){
         String command = "help";
-        if(command.equals("help")){
-            help();
-        }else if(command.equals("quit")){
-            quit();
-        }else{
-            System.out.println("sorry I don't understand");
+        switch (command) {
+            case "help":
+                help();
+                break;
+            case "quit":
+                quit();
+                break;
+            default:
+                System.out.println("sorry, I don’t understand your command");
+                break;
         }
     }
     
