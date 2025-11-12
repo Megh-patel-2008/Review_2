@@ -65,4 +65,11 @@ public class Review_part_2
             System.out.println(i);
         }
     }
+    
+        public void printOddNumbers(){
+        for(int i = 1; i <= 11; i = i+2)
+        {
+            System.out.println(i);
+        }
+    }
 }
