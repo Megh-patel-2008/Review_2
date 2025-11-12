@@ -49,4 +49,13 @@ public class Review_part_2
             i++;
         }
     }
+    
+    public void printNumbers2()
+    {
+        int sum = 0;
+        for(int i = 1; i<=10; i++){
+            sum = sum + i;
+        }
+        System.out.println("Sum is " + sum);
+    }
 }
