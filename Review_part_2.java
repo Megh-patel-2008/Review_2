@@ -58,4 +58,11 @@ public class Review_part_2
         }
         System.out.println("Sum is " + sum);
     }
+    
+    public void printEvenNumbers(){
+        for(int i = 0; i <= 10; i = i+2)
+        {
+            System.out.println(i);
+        }
+    }
 }
