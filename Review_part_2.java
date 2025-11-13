@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 public class Review_part_2
 {
     private int price = 120;
@@ -95,5 +96,4 @@ public class Review_part_2
             }
         }
     }
-
-    }
+}
