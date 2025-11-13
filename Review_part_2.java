@@ -83,4 +83,8 @@ public class Review_part_2
             System.out.println(numbers);
         }
     }
+    
+    public boolean findNumbers(ArrayList<Integer> list, int num){
+        return list.contains(num);
+    }
     }
