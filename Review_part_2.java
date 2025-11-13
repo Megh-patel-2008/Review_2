@@ -96,4 +96,11 @@ public class Review_part_2
             }
         }
     }
+    private HashMap<String,String>addressBook;
+    public void AddressBook(){
+        addressBook = new HashMap<>();
+        addressBook.put("Megh", "5463 rue Clark");
+        addressBook.put("Alex", "3910 rue Park");
+        addressBook.put("Nick", "9216 rue Berri");
+    }
 }
