@@ -72,4 +72,15 @@ public class Review_part_2
             System.out.println(i);
         }
     }
+    
+    public void collectionNumbers(int a, int b){
+        ArrayList<Integer> numbers = new ArrayList<>();
+        
+        for(int i=a; i <= b; i++){
+            if(i % 2==0){
+                numbers.add(i);
+            }
+            System.out.println(numbers);
+        }
+    }
     }
