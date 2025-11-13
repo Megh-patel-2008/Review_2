@@ -1,10 +1,4 @@
-
-/**
- * Write a description of class Review_part_2 here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+import java.util.ArrayList;
 public class Review_part_2
 {
     private int price = 120;
@@ -67,9 +61,15 @@ public class Review_part_2
     }
     
         public void printOddNumbers(){
-        for(int i = 1; i <= 11; i = i+2)
+        for(int i = 1; i <= 100; i = i+2)
         {
             System.out.println(i);
         }
     }
-}
+    
+    public void evenNumbersPrint(int a, int b){
+        for(int i = a; i <= b; i = i+2){
+            System.out.println(i);
+        }
+    }
+    }
