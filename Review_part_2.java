@@ -87,4 +87,13 @@ public class Review_part_2
     public boolean findNumbers(ArrayList<Integer> list, int num){
         return list.contains(num);
     }
+    
+    public void removeBelow(ArrayList<Integer> list, int limit) {
+        for (int i = list.size() - 1; i >= 0; i--) {
+            if (list.get(i) < limit) {
+                list.remove(i);
+            }
+        }
+    }
+
     }
